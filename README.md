@@ -70,7 +70,7 @@ Mặc định `ENABLE_UNSAFE_LOGIN_SQL_DEMO` trong `lib/demo/security.ts` là `f
 
 Demo thành công sẽ tạo session và chuyển sang `/feed`. Đăng xuất giữa các lần thử. Sau demo, đổi cờ về `false`; đổi cờ không tự xóa session hiện có. Action demo bị vô hiệu hóa trong production.
 
-# Bài tập
+# Bài tập 📖
 
 - **Nhiệm vụ:** Mỗi nhóm tạo một Form "Góp ý khách hàng".
 - **Yêu cầu:** Sử dụng Zod để kiểm tra dữ liệu:
