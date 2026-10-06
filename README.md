@@ -69,3 +69,14 @@ Mặc định `ENABLE_UNSAFE_LOGIN_SQL_DEMO` trong `lib/demo/security.ts` là `f
 - Demo 2: email `khongtontai@example.com`, password `' OR 1=1 --`.
 
 Demo thành công sẽ tạo session và chuyển sang `/feed`. Đăng xuất giữa các lần thử. Sau demo, đổi cờ về `false`; đổi cờ không tự xóa session hiện có. Action demo bị vô hiệu hóa trong production.
+
+## Phần 4: Tương tác & Giao bài tập
+
+- **Nhiệm vụ:** Mỗi nhóm tạo một Form "Góp ý khách hàng".
+- **Yêu cầu:** Sử dụng Zod để kiểm tra dữ liệu:
+  - Trường **"Nội dung"** phải trên 20 ký tự.
+  - Trường **"Số điện thoại"** phải đúng định dạng số điện thoại Việt Nam.
+
+## Phần 5: Chấm điểm
+
+Nhập dữ liệu sai để kiểm tra các thông báo validation của từng nhóm, gồm nội dung không vượt quá 20 ký tự và số điện thoại không đúng định dạng Việt Nam. Các nhóm trình bày kết quả kiểm tra và thông báo lỗi trên form.
