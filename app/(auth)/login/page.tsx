@@ -14,7 +14,7 @@ export default function LoginPage() {
       <LoginForm />
 
       <p className="auth-switch">
-        Chưa có tài khoản? <Link href="/register">Đăng ký</Link>
+        Chưa có tài khoản? <Link href="/register">Đăng ký</Link> · <Link href="/feedback">Góp ý</Link>
       </p>
     </>
   );

@@ -16,7 +16,7 @@ export default function RegisterPage() {
       <RegisterForm />
 
       <p className="auth-switch">
-        Đã có tài khoản? <Link href="/login">Đăng nhập</Link>
+        Đã có tài khoản? <Link href="/login">Đăng nhập</Link> · <Link href="/feedback">Góp ý</Link>
       </p>
     </>
   );
